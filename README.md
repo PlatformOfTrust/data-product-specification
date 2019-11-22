@@ -153,22 +153,50 @@ The SLA Object must conform to the following constraints.
 
 
 
-### 2.5. ConnectorObject
+### 2.5. InfrastructureObject
 
-Object element. 
+The infrastructure object describes the operational tooling to use in the service execution.
 
-| Field Name     | Type                                                                 | Description  |
-| :------------- | :------------------------------------------------------------------- | :----------- |
-| thing          | `string`                                                             | **Required** thing |
+| Field Name     | Type          | Description  |
+| :------------- | :------------:| :------------|
+| supervisor     | `uri`         | **Required** Location of the SLA Check service accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
+| monitor        | `uri`         | **Required** Location of the SLA Metrics endpoint accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
+| connectors        | `object`         | **Required** Connector component. |
 
-
-JSON example: 
+**Example:**
 
 ```
 {
-  "dataproduct": {
-    
-  }
+   "infrastructure":{
+      "supervisor": "http://supervisor.sla4oai.governify.io/v1/",
+      "monitor": "http://platformoftrust.statuspage.io"
+      "connectors: {
+      ...
+      }
+   }
+}
+```
+
+### 2.5. ConnectorsObject
+
+The connectors object describes the needed connector component details.
+
+| Field Name     | Type          | Description  |
+| :------------- | :------------:| :------------|
+| connectorId     | `string`         | **Required** Global Unique Identitifer within platform |
+| connectorUrl        | `uri`         | **Required** Location of the connector API endpoint  |
+
+
+**Example:**
+
+```
+{
+   "infrastructure":{
+      "connector": {
+        "connectorId": "31b5b971-dc50-4c9c-992a-57c0bf016186",
+        "connectorUrl": "https..."
+      }
+   }
 }
 ```
 
