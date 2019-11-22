@@ -42,16 +42,13 @@ Implementation of the specification might include namespaces which are included 
     "id": "31b5b971-dc50-4c9c-992a-57c0bf016186",
     "description: "Free text, long text, define max length in specification",
     "version": 1,
-    "connector": {
+    "infrastructure": {
       ...
     },
     "provider": {
       ...
     },
     "SLA": {
-      ...
-    },
-    "Plans": {
       ...
     }
   }
