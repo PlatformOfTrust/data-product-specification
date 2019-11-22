@@ -92,18 +92,21 @@ Contains a list of plans describing different levels of service and prices.
 plans:
   subscription:
     freemium:
+      pricing:
       quotas:
         requests:
-          - max: 1
-          - period: secondly
+          - max: 50 000
+          - period: monthly
     pro:
       pricing:
+      quotas:
         cost: 50
            requests:
-             - max: 20
-             - period: secondly
+             - max: 200 0000
+             - period: monthly
   pay-as-you-go:
     single:
+      pricing:
       quotas:
         requests:
           - max: 1
@@ -115,7 +118,7 @@ Describes the general information of the pricing of the Data Product.
 | Field Name     | Type          | Description  |
 | :------------- | :------------:| :------------|
 | cost           | `number`      | **Optional** Cost associated with this service. Defaults to `0` if unspecified. |
-| currency       | `string`      | **Optional** Currency used to express the cost. Supported currency values are expressed in ISO 4217 format. Samples: `USD`, `EUR`, or `BTC` for US dollar, euro, or bitcoin, respectively. Defaults to `USD` if unspecified. |
+| currency       | `string`      | **Optional** Currency used to express the cost. Supported currency values are expressed in ISO 4217 format. Samples: `USD`, `EUR`, or `BTC` for US dollar, euro, or bitcoin, respectively. Defaults to `EUR` if unspecified. |
 | billing        | `string`      | **Optional** Period used for billing. Supported values are: - `onepay` Unique payment before start using the service. - `daily` Billing at end of the day. - `weekly` Billing at end of the week. - `monthly` Billing at end of the month. - `quarterly` Billing at end of the quarter. -  `yearly` Billing at end of the year. Default to `monthly` if unspecified. |
 
 **Example:**
