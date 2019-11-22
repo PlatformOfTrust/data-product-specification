@@ -30,6 +30,7 @@ Implementation of the specification might include namespaces which are included 
 | connector            | `object`                                                                | **Required** Define the service component which handles the data requests and data transformations |
 | provider       | `object`                                                             | **Required** Provider information: data about the owner/host of the data product. |
 | SLA            | `object`                                                             | **Required** SLA levels and details |
+| Plans            | `object`                                                             | **Required** Available consumer plans |
 | imageUrl       | `uri`                                                             | **Required** Logo URL (absolute) of the data product. |
 | description      | `string`                                                             | **Required** Description of the data product. |
 
@@ -37,15 +38,21 @@ Implementation of the specification might include namespaces which are included 
 ```
 {
   "product": {
-    "id": "PetPlans",
+    "type": "StandardDataProduct",
+    "id": "31b5b971-dc50-4c9c-992a-57c0bf016186",
+    "description: "Free text, long text, define max length in specification",
     "version": 1,
-    "api": "https://sla-petstore.herokuapp.com/api/swagger.json",
-    "type": "instance",
-    "provider": "ISAGroup",
-    "consumer": "tenant1",
-    "validity": {
-      "effectiveDate": "2016-01-12T12:57:37.345Z",
-      "expirationDate": "2017-01-12T12:57:37.345Z"
+    "connector": {
+      ...
+    },
+    "provider": {
+      ...
+    },
+    "SLA": {
+      ...
+    },
+    "Plans": {
+      ...
     }
   }
 }
