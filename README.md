@@ -17,9 +17,21 @@ This DPS definition in a vendor neutral and intented to fostering innovation in 
 
 ## 2. DPS Document Schema
 
-Top level objects in table, description and required or not
+Top level objects in table, description and required or not. 
+
+Namespaces....
 
 ### 2.2. xxxx
+
+JSON example: 
+
+```
+{
+  "dataproduct": {
+    
+  }
+}
+```
 
 ### 2.3. xxxx
 
