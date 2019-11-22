@@ -78,10 +78,10 @@ JSON example:
 
 Contains a list of plans describing different levels of service and prices.
 
-| Field Pattern  | Type                                            | Description  |
+| Field Name  | Type                                            | Description  |
 | :------------- | :---------------------------------------------- | :----------- |
-| {planType}     | Describes higher level type of plan, subscribe or pay as you go |
-| {planName}     | Sub type of plan |
+| planType     | `string`                                          | Describes higher level type of plan, subscribe or pay as you go |
+| planName     | `string`                                          | Sub type of plan |
 
 **Example:**
 
