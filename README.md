@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Data Product Specification (DPS)
 
-You can use the [editor on GitHub](https://github.com/PlatformOfTrust/data-product-specification/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"
+in this document are to be interpreted as described in [RFC 2119](http://www.ietf.org/rfc/rfc2119.txt).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Revision History
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+|Version  | Date         | Notes                  |
+|:------- |:------------ |:---------------------- |
+| 0.1     | 2019-11-22   | Initial draft.         |
 
-```markdown
-Syntax highlighted code block
+## 1. Introduction
+**Data Product Specification (DPS)** is an open source standard for describing Data Products.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PlatformOfTrust/data-product-specification/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This DPS definition in a vendor neutral and intented to fostering innovation in the area where data is exposed for internal or public use as data products. Open data movemment began the data exposure, but it lacks the commercial aspects of data products. Since a specification for the data product has been missing, Platform of Trust decided to ignite open process to define one shared specification and understanding of what is data product.  
