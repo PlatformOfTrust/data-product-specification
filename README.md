@@ -58,7 +58,7 @@ Implementation of the specification might include namespaces which are included 
 }
 ```
 
-### 2.1. Provider
+### 2.1. ProviderObject
 
 Object element. 
 
@@ -77,7 +77,7 @@ JSON example:
 }
 ```
 
-### 2.2. Plans
+### 2.2. PlansObject
 
 Object element. 
 
@@ -97,7 +97,35 @@ JSON example:
 }
 ```
 
-### 2.3. SLA
+### 2.3. PricingObject
+Describes the general information of the pricing of the Data Product.
+
+| Field Name     | Type          | Description  |
+| :------------- | :------------:| :------------|
+| cost           | `number`      | **Optional** Cost associated with this service. Defaults to `0` if unspecified. |
+| currency       | `string`      | **Optional** Currency used to express the cost. Supported currency values are expressed in ISO 4217 format. Samples: `USD`, `EUR`, or `BTC` for US dollar, euro, or bitcoin, respectively. Defaults to `USD` if unspecified. |
+| billing        | `string`      | **Optional** Period used for billing. Supported values are: - `onepay` Unique payment before start using the service. - `daily` Billing at end of the day. - `weekly` Billing at end of the week. - `monthly` Billing at end of the month. - `quarterly` Billing at end of the quarter. -  `yearly` Billing at end of the year. Default to `monthly` if unspecified. |
+
+**Example:**
+
+```
+{
+   "pricing":{
+      "cost": 0,
+      "currency": "euro",
+      "billing": "monthly"
+   }
+}
+```
+
+```
+pricing:
+  cost: 0
+  currency: "euro"
+  billing: "monthly"
+```
+
+### 2.4. SlaObject
 
 Object element. 
 
@@ -116,7 +144,7 @@ JSON example:
 }
 ```
 
-### 2.4. Connector
+### 2.5. ConnectorObject
 
 Object element. 
 
