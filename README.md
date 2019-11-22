@@ -79,22 +79,34 @@ JSON example:
 
 ### 2.2. PlansObject
 
-Object element. 
+Contains a list of plans describing different levels of service and prices.
 
+| Field Pattern  | Type                                            | Description  |
+| :------------- | :---------------------------------------------- | :----------- |
+| {planType}     | Describes higher level type of plan, subscribe or pay as you go |
+| {planName}     | Sub type of plan |
 
-| Field Name     | Type                                                                 | Description  |
-| :------------- | :------------------------------------------------------------------- | :----------- |
-| thing          | `string`                                                             | **Required** thing |
-
-
-JSON example: 
+**Example:**
 
 ```
-{
-  "dataproduct": {
-    
-  }
-}
+plans:
+  subscription:
+    freemium:
+      quotas:
+        requests:
+          - max: 1
+          - period: secondly
+    pro:
+      pricing:
+        cost: 50
+           requests:
+             - max: 20
+             - period: secondly
+  pay-as-you-go:
+    single:
+      quotas:
+        requests:
+          - max: 1
 ```
 
 ### 2.3. PricingObject
