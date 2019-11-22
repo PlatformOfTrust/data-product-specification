@@ -55,6 +55,20 @@ Implementation of the specification might include namespaces which are included 
 }
 ```
 
+### 2.4. SlaObject
+
+SLA Object
+The SLA Object must conform to the following constraints.
+
+| Field Name     | Type                                                                 | Description  |
+| :------------- | :------------------------------------------------------------------- | :----------- |
+| infrastructure | [`InfrastructureObject`](#524-infrastructureobject)  | **Required** Provides information about tooling used for SLA storage, calculation, governance, etc. |
+| pricing        | [`PricingObject`](#525-pricingobject)                | **Optional** Global pricing data. |
+| metrics        | [`MetricsObject`](#526-metricsobject)                | **Required** A list of metrics to use in the context of the SLA. |
+| plans          | [`PlansObject`](#528-plansobject)                    | **Optional** A set of plans to define different service levels per plan. |
+| quotas         | [`QuotasObject`](#5210-quotasobject)                  | **Optional** Global quotas, these are the default quotas, but they could be overridden by each plan later. |
+
+
 ### 2.1. ProviderObject
 
 Object element. 
@@ -73,6 +87,56 @@ JSON example:
   }
 }
 ```
+
+
+### 2.5. InfrastructureObject
+
+The infrastructure object describes the operational tooling to use in the service execution.
+
+| Field Name     | Type          | Description  |
+| :------------- | :------------:| :------------|
+| supervisor     | `uri`         | **Required** Location of the SLA Check service accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
+| monitor        | `uri`         | **Required** Location of the SLA Metrics endpoint accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
+| connectors        | `object`         | **Required** Connector component. |
+
+**Example:**
+
+```
+{
+   "infrastructure":{
+      "supervisor": "http://supervisor.sla4oai.governify.io/v1/",
+      "monitor": "http://platformoftrust.statuspage.io"
+      "connectors: {
+      ...
+      }
+   }
+}
+```
+
+### 2.5. ConnectorsObject
+
+The connectors object describes the needed connector component details.
+
+| Field Name     | Type          | Description  |
+| :------------- | :------------:| :------------|
+| connectorId     | `string`         | **Required** Global Unique Identitifer within platform |
+| connectorUrl        | `uri`         | **Required** Location of the connector API endpoint  |
+
+
+**Example:**
+
+```
+{
+   "infrastructure":{
+      "connector": {
+        "connectorId": "31b5b971-dc50-4c9c-992a-57c0bf016186",
+        "connectorUrl": "https..."
+      }
+   }
+}
+```
+
+
 
 ### 2.2. PlansObject
 
@@ -137,67 +201,6 @@ pricing:
   billing: "monthly"
 ```
 
-### 2.4. SlaObject
 
-SLA Object
-The SLA Object must conform to the following constraints.
-
-| Field Name     | Type                                                                 | Description  |
-| :------------- | :------------------------------------------------------------------- | :----------- |
-| infrastructure | [`InfrastructureObject`](#524-infrastructureobject)  | **Required** Provides information about tooling used for SLA storage, calculation, governance, etc. |
-| pricing        | [`PricingObject`](#525-pricingobject)                | **Optional** Global pricing data. |
-| metrics        | [`MetricsObject`](#526-metricsobject)                | **Required** A list of metrics to use in the context of the SLA. |
-| plans          | [`PlansObject`](#528-plansobject)                    | **Optional** A set of plans to define different service levels per plan. |
-| quotas         | [`QuotasObject`](#5210-quotasobject)                  | **Optional** Global quotas, these are the default quotas, but they could be overridden by each plan later. |
-
-
-
-
-### 2.5. InfrastructureObject
-
-The infrastructure object describes the operational tooling to use in the service execution.
-
-| Field Name     | Type          | Description  |
-| :------------- | :------------:| :------------|
-| supervisor     | `uri`         | **Required** Location of the SLA Check service accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
-| monitor        | `uri`         | **Required** Location of the SLA Metrics endpoint accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
-| connectors        | `object`         | **Required** Connector component. |
-
-**Example:**
-
-```
-{
-   "infrastructure":{
-      "supervisor": "http://supervisor.sla4oai.governify.io/v1/",
-      "monitor": "http://platformoftrust.statuspage.io"
-      "connectors: {
-      ...
-      }
-   }
-}
-```
-
-### 2.5. ConnectorsObject
-
-The connectors object describes the needed connector component details.
-
-| Field Name     | Type          | Description  |
-| :------------- | :------------:| :------------|
-| connectorId     | `string`         | **Required** Global Unique Identitifer within platform |
-| connectorUrl        | `uri`         | **Required** Location of the connector API endpoint  |
-
-
-**Example:**
-
-```
-{
-   "infrastructure":{
-      "connector": {
-        "connectorId": "31b5b971-dc50-4c9c-992a-57c0bf016186",
-        "connectorUrl": "https..."
-      }
-   }
-}
-```
 
 ## Samples
