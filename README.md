@@ -205,4 +205,13 @@ pricing:
 
 
 
-## Samples
+## Standard Data Product Responses
+
+The APIs providing data product content as JSON (default format) must follow the given data schema format always
+
+### Headers
+
+
+### Data Product Response Object
+
+Basic object definition listing all attributes and objects as table. All objects must be defined below with same details as the attributes
