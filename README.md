@@ -142,22 +142,19 @@ pricing:
 
 ### 2.4. SlaObject
 
-Object element. 
+SLA Object
+The SLA Object must conform to the following constraints.
 
 | Field Name     | Type                                                                 | Description  |
 | :------------- | :------------------------------------------------------------------- | :----------- |
-| thing          | `string`                                                             | **Required** thing |
+| infrastructure | [`InfrastructureObject`](#524-infrastructureobject)  | **Required** Provides information about tooling used for SLA storage, calculation, governance, etc. |
+| pricing        | [`PricingObject`](#525-pricingobject)                | **Optional** Global pricing data. |
+| metrics        | [`MetricsObject`](#526-metricsobject)                | **Required** A list of metrics to use in the context of the SLA. |
+| plans          | [`PlansObject`](#528-plansobject)                    | **Optional** A set of plans to define different service levels per plan. |
+| quotas         | [`QuotasObject`](#5210-quotasobject)                  | **Optional** Global quotas, these are the default quotas, but they could be overridden by each plan later. |
 
 
-JSON example: 
 
-```
-{
-  "dataproduct": {
-    
-  }
-}
-```
 
 ### 2.5. ConnectorObject
 
