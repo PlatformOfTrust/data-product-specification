@@ -249,7 +249,7 @@ Response headers
 | :----------------- | :------------------ | :----------- |
 | RateLimit-Limit    | `string`            | **Required** |
 | RateLimit-Remaining| `string`            | **Required** |
-| RateLimit-Reset    | `string`            | **Required** |
+| RateLimit-Reset    | `string`            | **Required** the number of seconds until the quota resets.|
 
 
 
