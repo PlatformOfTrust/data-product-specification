@@ -80,10 +80,10 @@ The SLA Object must conform to the following constraints.
 Object element. 
 
 
-| Field Name     | Type                                                                 | Description  |
-| :------------- | :------------------------------------------------------------------- | :----------- |
-| Support             | `object`                                                             | **Required** Forms and availability of support |
-| Incidents             | `object`                                                             | **Required** Incidents management and resolution methods and times |
+| Field Name     | Type                     | Description  |
+| :------------- | :----------------------- | :----------- |
+| Support        | `object`                 | **Required** Forms and availability of support |
+| Incidents      | `object`                 | **Required** Incidents management and resolution methods and times |
 
 ```
 Telephone support : 9:00 A.M. to 5:00 P.M. Monday - Friday
@@ -128,10 +128,11 @@ JSON example:
 The infrastructure object describes the operational tooling to use in the service execution.
 
 | Field Name     | Type          | Description  |
-| :------------- | :------------:| :------------|
-| supervisor     | `uri`         | **Required** Location of the SLA Check service accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
-| monitor        | `uri`         | **Required** Location of the SLA Metrics endpoint accordingly to the [Basic SLA Management Service](./operationalServices.md) spec. |
-| connectors        | `object`         | **Required** Connector component. |
+| :------------------- | :------------:| :------------|
+| supervisor           | `uri`         | **Required** Location of the SLA Check service accordingly to the Basic SLA Management Service spec.|
+| monitor              | `uri`         | **Required** Location of the SLA Metrics endpoint accordingly to the Basic SLA Management Service spec. |
+| connectors           | `object`         | **Required** Connector component. |
+| consentManagement    | `object`         | **Required** Consent management. |
 
 **Example:**
 
