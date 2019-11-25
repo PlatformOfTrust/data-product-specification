@@ -72,6 +72,7 @@ The SLA Object must conform to the following constraints.
 | serviceManagement| [`ServiceManagementObject`](#)                     | **Optional** Effective support of in-scope services is a result of maintaining consistent service levels.  |
 | visibility      | `string`                                            | **Required** Public, private, organisation |
 | status          | `string`                                            | **Required** idea, draft, testing, staging, production, retired |
+| regionsAvailability          | `string`                                            | **Required** all, North America, South America, Europe, Asia, Africa |
 
 
 ### 2.x. ServiceManagementObject
