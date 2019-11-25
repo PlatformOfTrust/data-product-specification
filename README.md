@@ -36,8 +36,6 @@ Implementation of the specification might include namespaces which are included 
 | SLA            | `object`                                                             | **Required** SLA levels and details |
 | localisation            | `object`                                                             | **May** Localisation details |
 | legal            | `object`                                                             | **Required** Legal - rights, consent,  details |
-| visibility        | `string`                                                             | **Required** Public, private, organisation |
-| status        | `string`                                                             | **Required** idea, draft, testing, staging, production, retired |
 
 ```
 {
@@ -70,8 +68,10 @@ The SLA Object must conform to the following constraints.
 | pricing        | [`PricingObject`](#525-pricingobject)                | **Optional** Global pricing data. |
 | metrics        | [`MetricsObject`](#526-metricsobject)                | **Required** A list of metrics to use in the context of the SLA. |
 | plans          | [`PlansObject`](#528-plansobject)                    | **Optional** A set of plans to define different service levels per plan. |
-| quotas         | [`QuotasObject`](#5210-quotasobject)                  | **Optional** Global quotas, these are the default quotas, but they could be overridden by each plan later. |
-| serviceManagement         | [`ServiceManagementObject`](#)                  | **Optional** Effective support of in-scope services is a result of maintaining consistent service levels.  |
+| quotas         | [`QuotasObject`](#5210-quotasobject)                 | **Optional** Global quotas, these are the default quotas, but they could be overridden by each plan later. |
+| serviceManagement| [`ServiceManagementObject`](#)                     | **Optional** Effective support of in-scope services is a result of maintaining consistent service levels.  |
+| visibility      | `string`                                            | **Required** Public, private, organisation |
+| status          | `string`                                            | **Required** idea, draft, testing, staging, production, retired |
 
 
 ### 2.x. ServiceManagementObject
