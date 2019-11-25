@@ -243,6 +243,15 @@ The APIs providing data product content as JSON (default format) must follow the
 
 ### Headers
 
+Response headers 
+
+| Field Name         | Type                | Description  |
+| :----------------- | :------------------ | :----------- |
+| RateLimit-Limit    | `string`            | **Required** |
+| RateLimit-Remaining| `string`            | **Required** |
+| RateLimit-Reset    | `string`            | **Required** |
+
+
 
 ### Data Product Response Object
 
