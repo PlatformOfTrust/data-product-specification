@@ -35,7 +35,7 @@ Implementation of the specification might include namespaces which are included 
 | provider       | `object`                                                             | **Required** Provider information: data about the owner/host of the data product. |
 | SLA            | `object`                                                             | **Required** SLA levels and details |
 | localisation            | `object`                                                             | **May** Localisation details |
-| legal            | `object`                                                             | **May** Legal - rights, consent,  details |
+| legal            | `object`                                                             | **Required** Legal - rights, consent,  details |
 | visibility        | `string`                                                             | **Required** Public, private, organisation |
 | status        | `string`                                                             | **Required** idea, draft, testing, staging, production, retired |
 
