@@ -1,4 +1,4 @@
-# DPS Document Schema
+# Data Product Schema
 
 Top level attributes and objects. The root level objects are defined under separate chapters after the main level.
 

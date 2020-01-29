@@ -11,7 +11,8 @@
 
 ## Schemas
 
-* [DPS Document Schema](schemas/dps-document-schema/README.md)
+* [Data Product Schema](schemas/dps-document-schema/README.md)
+  * [PayloadObject](schemas/dps-document-schema/payloadobject.md)
   * [PricingObject](schemas/dps-document-schema/pricingobject.md)
   * [ServiceManagementObject](schemas/dps-document-schema/servicemanagementobject.md)
   * [ConnectorsObject](schemas/dps-document-schema/connectorsobject.md)
