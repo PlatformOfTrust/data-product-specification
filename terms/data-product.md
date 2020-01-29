@@ -10,3 +10,9 @@ A data product is the item offered for sale. A data product is a commodity. Ever
   
 **A product should be adaptable**_:_ with trends, time and change in segments, the product should lend itself to adaptation to make it more relevant and maintain its revenue stream.
 
+
+
+### Entities
+
+
+

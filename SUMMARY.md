@@ -12,7 +12,11 @@
 ## Schemas
 
 * [DPS Document Schema](dps-document-schema/README.md)
-  * [Infrastructure\(object\)](dps-document-schema/infrastructure-object.md)
+  * [ServiceManagementObject](schemas/dps-document-schema/servicemanagementobject.md)
+  * [ConnectorsObject](schemas/dps-document-schema/connectorsobject.md)
+  * [ProviderObject](schemas/dps-document-schema/providerobject.md)
+  * [SlaObject](schemas/dps-document-schema/slaobject.md)
+  * [InfrastructureObject](schemas/dps-document-schema/infrastructure-object.md)
 
 ## Canvases
 
