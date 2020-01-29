@@ -4,7 +4,7 @@ Data product contains payload which is a collection of [data points](data-point.
 
 ![](../.gitbook/assets/payload-1.jpg)
 
-### Three data collection types
+### Three payload data collection types
 
 Payload of data products have fixed schemas defined in ontology. Payload can contain three data streams or value sets: 
 
