@@ -12,7 +12,7 @@ A data product is the item offered for sale. A data product is a commodity. Ever
 
 
 
-### Entities
+### Entities of the Data Product
 
 ![](../.gitbook/assets/data-product-components-2.jpg)
 
