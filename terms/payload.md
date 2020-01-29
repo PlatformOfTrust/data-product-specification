@@ -8,3 +8,5 @@ Payload of data products have fixed schemas defined in ontology. Payload can con
 2. History \(array of objects\)
 3. Prediction \(array of objects\)
 
+![](../.gitbook/assets/payload-1.jpg)
+
