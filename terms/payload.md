@@ -8,7 +8,7 @@ Data product contains payload which is a collection of [data points](data-point.
 
 Payload of data products have fixed schemas defined in ontology. Payload can contain three data streams or value sets: 
 
-1. Current values
+1. Current values \(array of objects\)
 2. History \(array of objects\)
 3. Prediction \(array of objects\)
 
