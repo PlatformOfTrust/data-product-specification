@@ -11,8 +11,8 @@
 
 ## Schemas
 
-* [DPS Document Schema](schemas/dps-document-schema/README.md)
-  * [Infrastructure\(object\)](schemas/dps-document-schema/infrastructure-object.md)
+* [DPS Document Schema](dps-document-schema/README.md)
+  * [Infrastructure\(object\)](dps-document-schema/infrastructure-object.md)
 
 ## Canvases
 
