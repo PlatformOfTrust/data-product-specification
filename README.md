@@ -4,8 +4,6 @@ This Data Product Specification \(DPS\) definition in a vendor neutral and inten
 
 This Specification defines Standard Data Product fields and objects. This specification also defines the schemas for responses \(payload\).
 
-![Data Product Model](.gitbook/assets/data-product-components.jpg)
-
 ### API practices in Platform of Trust
 
 All the Data Product meta data such as SLA object and Provider Object is accessed and managed with Product API. Payload of the Data Product is accessed with Broker API. 

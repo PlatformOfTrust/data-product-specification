@@ -14,7 +14,5 @@ A data product is the item offered for sale. A data product is a commodity. Ever
 
 ### Entities
 
-![](../.gitbook/assets/data-product-components.jpg)
-
-
+![](../.gitbook/assets/data-product-components-2.jpg)
 
