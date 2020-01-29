@@ -11,6 +11,7 @@ Implementation of the specification might include namespaces which are included 
 | type | `string` | **Required** Options: `DataProduct`, `StandardDataProduct` |
 | version | `string` | **Required** Indicates the version of the data product format `='1.0'`. |
 | imageUrl | `URI` | **Required** Logo URL \(absolute\) of the data product. |
+| dataproductversion | `string` | **Required** Data Product version |
 | description | `string` | **Required** Description of the data product. |
 | [infrastructure](infrastructure-object.md) | `object` | **Required.** Define the service component which handles the data requests and data transformations |
 
