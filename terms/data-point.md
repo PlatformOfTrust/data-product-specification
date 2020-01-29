@@ -4,3 +4,5 @@ Data point is a single fact or piece of information. In the context of **buildin
 
 **Each device is not a data product.** Data product contains [payload](payload.md) which is a collection of data points. Of course there is possible situation that building includes just one CO2 measuring device and the data points of that device constitute [data product payload](payload.md).
 
+![](../.gitbook/assets/payload-1.jpg)
+
