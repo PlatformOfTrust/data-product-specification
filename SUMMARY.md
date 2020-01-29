@@ -11,7 +11,7 @@
 
 ## Schemas
 
-* [DPS Document Schema](dps-document-schema/README.md)
+* [DPS Document Schema](schemas/dps-document-schema/README.md)
   * [ServiceManagementObject](schemas/dps-document-schema/servicemanagementobject.md)
   * [ConnectorsObject](schemas/dps-document-schema/connectorsobject.md)
   * [ProviderObject](schemas/dps-document-schema/providerobject.md)
