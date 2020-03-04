@@ -56,17 +56,7 @@
     "Conditions": {
       "terms": "uri",
       "dataLicense":"license",
-      "payloadOptions: {
-          "currenValues": {
-            "parameters" : {
-              "startDate" : "Value",
-              "endDate" : "Value", 
-              "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", 
-          }
-          "historyValues: {},
-          "predictionValues": {}
-        }
-      ...
+      
     }
   }
 }
