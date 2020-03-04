@@ -1,5 +1,7 @@
 # Data Product example
 
+### Data Product Meta Information
+
 ```text
 
 {
@@ -31,8 +33,8 @@
       "connectors: {
         "connector: {
           "name": string,
-          "versio: interger,
-          "uri": uri
+          "versio: integer,
+          "uri": uri, 
         }, 
         "connector: {
           "name": string,
@@ -43,11 +45,48 @@
     },
     "Conditions": {
       "terms": "string",
-      "dataLicense:"
+      "dataLicense":"license",
+      "payloadOptions: {
+          "currenValues": boolean {
+            "parameters" : {
+              "param-1" : "Value",
+              "param-2" : "Value"
+          }
+          "historyValues: boolean,
+          "predictionValues": boolean
+        }
       ...
     }
   }
 }
 
+```
+
+### Data Product Payload response
+
+```text
+{
+  "DataProduct": {
+  "payloadOption: "currentValues", 
+  "values": {
+      "name": "jotain";
+  }
+  
+  "links": [
+      {
+          "rel": "self",
+          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30",
+      },
+      {
+          "rel": "first",
+          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30&from=0",
+      },
+      {
+          "rel": "next",
+          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30&from=30",
+      }
+  ]
+  
+  
 ```
 
