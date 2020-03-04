@@ -7,7 +7,8 @@
 {
   "DataProduct": {
     "idName": "string",
-    "description": "31b5b971-dc50-4c9c-992a-57c0bf016186",
+    "id": PoT generated unique id (pick some hashing algorithm)
+    "description": "long text",
     "status: "[draft, development, ready to publish, published, retired]",
     "version": 1,
     "image": URI, 
