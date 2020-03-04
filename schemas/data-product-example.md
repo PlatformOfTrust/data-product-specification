@@ -6,14 +6,14 @@
 
 {
   "DataProduct": {
-    "idName": "string",
-    "id": PoT generated unique id (pick some hashing algorithm)
+    "idName": "string", (can contain weird characters and make it hard to use as identifier)
+    "idSystem": PoT generated unique id (pick some hashing algorithm)
     "description": "long text",
     "status: "[draft, development, ready to publish, published, retired]",
     "version": 1,
     "image": URI, 
-    "validFrom": data time, 
-    "validTo": date time, 
+    "validFrom": data time, (can be empty)
+    "validTo": date time, (can be empty)
     "Owner": {
       ...
     },
@@ -58,6 +58,9 @@
     "Conditions": {
       "terms": "uri",
       "dataLicense":"license",
+      "SLA": {
+      
+      }
       
     }
   }
@@ -65,15 +68,47 @@
 
 ```
 
-* 
 ### Data Product Payload response
 
 ```text
 {
   "DataProduct": {
   "payloadOption: "currentValues", 
-  "values": {
-      "name": "jotain";
+  "group" {
+      "payloadName": "co2",
+      "unit": something, 
+      "values": {
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          },
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          },
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          }
+      }
+  },
+  "group" {
+      "payloadName": "humid",
+      "unit": something, 
+      "values": {
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          },
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          },
+          "value": {
+              "dateTime":"jotain", 
+              "value": value, 
+          }
+      }
   }
   
   "links": [
