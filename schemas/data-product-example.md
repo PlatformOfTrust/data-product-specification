@@ -39,7 +39,8 @@
               "parameters" : {
                 "startDate" : "Value",
                 "endDate" : "Value", 
-                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", 
+                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]",
+                "limit": integer (default value 500) 
               }
             },
             "historyValues: {},
