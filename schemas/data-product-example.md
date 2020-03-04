@@ -48,8 +48,9 @@
       "payloadOptions: {
           "currenValues": {
             "parameters" : {
-              "param-1" : "Value",
-              "param-2" : "Value"
+              "startDate" : "Value",
+              "endDate" : "Value", 
+              "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", 
           }
           "historyValues: {},
           "predictionValues": {}
@@ -61,6 +62,7 @@
 
 ```
 
+* 
 ### Data Product Payload response
 
 ```text
