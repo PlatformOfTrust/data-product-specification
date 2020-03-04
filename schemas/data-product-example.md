@@ -17,43 +17,42 @@
       ...
     },
     "Pricing": {
+      "currency": "according to some internal standard, one value",
       "PricePlan" {
-        "name": "string", 
-        "currency": "according to some internal standard, one value", 
+        "name": "string",   
         ...
       }, 
       "PricePlan" {
         "name": "string", 
-        "currency": "according to some internal standard, one value", 
         ...
       }
     },
     "Infrastructure": {
-      "monitoring": uri, 
+      "monitoring": status.oftrust.net, 
       "connectors: {
         "connector: {
           "name": string,
-          "versio: integer,
+          "version: integer,
           "uri": uri, 
         }, 
         "connector: {
           "name": string,
-          "versio: interger,
+          "version: interger,
           "uri": uri
         }
       }
     },
     "Conditions": {
-      "terms": "string",
+      "terms": "uri",
       "dataLicense":"license",
       "payloadOptions: {
-          "currenValues": boolean {
+          "currenValues": {
             "parameters" : {
               "param-1" : "Value",
               "param-2" : "Value"
           }
-          "historyValues: boolean,
-          "predictionValues": boolean
+          "historyValues: {},
+          "predictionValues": {}
         }
       ...
     }
