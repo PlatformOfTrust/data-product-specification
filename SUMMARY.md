@@ -11,6 +11,7 @@
 
 ## Schemas
 
+* [Data Product example](schemas/data-product-example.md)
 * [Data Product Schema](schemas/dps-document-schema/README.md)
   * [PayloadObject](schemas/dps-document-schema/payloadobject.md)
   * [PricingObject](schemas/dps-document-schema/pricingobject.md)
