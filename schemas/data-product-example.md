@@ -73,7 +73,9 @@
 ```text
 {
   "DataProduct": {
-  "payloadOption: "currentValues", 
+  "payloadOption: "historyValues", 
+  "startDate":"date time", 
+  "endDate": "date time",
   "group" {
       "payloadName": "co2",
       "unit": something, 
