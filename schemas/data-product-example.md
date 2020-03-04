@@ -34,6 +34,17 @@
           "name": string,
           "version: integer,
           "uri": uri, 
+          "payloadOptions: {
+            "currenValues": {
+              "parameters" : {
+                "startDate" : "Value",
+                "endDate" : "Value", 
+                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", 
+              }
+            },
+            "historyValues: {},
+            "predictionValues": {}
+          }
         }, 
         "connector: {
           "name": string,
