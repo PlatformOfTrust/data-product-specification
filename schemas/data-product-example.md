@@ -12,6 +12,7 @@
     "status: "[draft, development, ready to publish, published, retired]",
     "version": 1,
     "image": URI, 
+    "visibility": "[private, organisation, public]"
     "validFrom": data time, (can be empty)
     "validTo": date time, (can be empty)
     "Owner": {
