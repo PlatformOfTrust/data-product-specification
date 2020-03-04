@@ -109,7 +109,7 @@
               "value": value, 
           }
       }
-  }
+  },
   
   "links": [
       {
