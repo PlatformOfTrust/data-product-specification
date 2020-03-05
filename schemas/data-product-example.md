@@ -70,7 +70,17 @@
 
 ```
 
-### Data Product Payload response
+### Data Product Payload responses
+
+Data Product payload can have multiple slightly differing payloads. The structure of the schema is otherwise the same, but the `group` element contents and amount depends of the data product decisions made by data product owner. Possible payload options are:
+
+* Current values
+* History values
+* Prediction values
+
+#### History  values example
+
+In this example data product payload contains historical values of two measurements: CO2 and humidity. 
 
 ```text
 {
