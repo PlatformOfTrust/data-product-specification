@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Data Product Specification \(DRAFT\)](README.md)
+* [Data Product Specification Summary \(DRAFT\)](README.md)
 
 ## Key concepts <a id="terms"></a>
 
