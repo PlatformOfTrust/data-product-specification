@@ -87,8 +87,9 @@
       "dataLicense":"license",
       "SLA": {
         "objective": {
+          "period": "[daily, weekly, monthly]",
           "responseTimeMs": integer, // example 250
-          "period": "[daily, weekly, monthly]"
+          "availability":"[90%, 95%, 97,5%, 98%, 99%, 99,9%, 99,99%]
       }
     },
     "Support": {
