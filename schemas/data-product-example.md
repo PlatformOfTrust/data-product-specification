@@ -20,8 +20,9 @@
     "updatedAt": datetime
     "Owner": {
       "orgName": string
+      "orgUri": uri
       "orgId": string (coming from Platform of Trust)
-      "image": logo uri
+      "image": uri (logo)
        
       ...
     },
