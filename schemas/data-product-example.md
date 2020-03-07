@@ -55,8 +55,9 @@
               "parameters" : {
                 "startDate" : datetime,
                 "endDate" : datetime, 
-                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]",
-                "limit": integer (default value 500) 
+                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", (should be defined in connector metadata)
+                "limit": integer (default value 500)
+                "offset":  
               }
             },
             "historyValues: {},
