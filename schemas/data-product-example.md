@@ -43,10 +43,10 @@
         ...
       }
     },
-    "Infrastructure": {
-      "monitoring": status.oftrust.net, 
+    "Infrastructure": { 
       "connectors: {
         "connector: {
+          "monitoring": status.oftrust.net,
           "name": string,
           "version: integer,
           "uri": uri, 
@@ -64,6 +64,7 @@
           }
         }, 
         "connector: {
+          "monitoring": status.oftrust.net,
           "name": string,
           "version: integer,
           "uri": uri
