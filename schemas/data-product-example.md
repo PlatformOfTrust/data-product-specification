@@ -3,7 +3,9 @@
 
 
 {% hint style="info" %}
-In Product API implementation it might be a good idea to parametrize the amount of details retrieved for a product and product list. For example "details=\[minimum, all\]"
+In Product API implementation it might be a good idea to parametrize the amount of details retrieved for a product and product list. For example "details=\[minimum, all\]". 
+
+This would offer flexibility in limiting the amount of data in cases where just the basic information is needed. 
 {% endhint %}
 
 ### Data Product Meta Information
