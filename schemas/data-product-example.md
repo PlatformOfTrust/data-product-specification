@@ -103,19 +103,22 @@ In this example data product payload contains historical values of two measureme
   "payloadOption: "historyValues", 
   "startDate":"date time", 
   "endDate": "date time",
-  "group" {
+  "valueGroup" {
       "payloadName": "co2",
       "unit": something, 
       "values": {
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           },
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           },
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           }
@@ -126,14 +129,17 @@ In this example data product payload contains historical values of two measureme
       "unit": something, 
       "values": {
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           },
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           },
           "value": {
+              "deviceId:"",
               "dateTime":"jotain", 
               "value": value, 
           }
