@@ -94,6 +94,7 @@
     },
     "Support": {
       "contact": {
+        "hours: "string"
         "phone": string,
         "email": email,
       },
