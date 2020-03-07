@@ -1,4 +1,4 @@
-# Data Product example
+# Data Product Mockup
 
 ### Data Product Meta Information
 
