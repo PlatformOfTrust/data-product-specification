@@ -13,6 +13,7 @@ This Specification defines Standard Data Product fields and objects. This specif
 **Capabilities**
 
 * can be versioned
+* life cycle options
 * availability can be limited by continents and by countries
 * payload can have three options: current values, history values and prediction values
 * SLA can be defined
