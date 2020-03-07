@@ -30,6 +30,7 @@
       "currency": "according to some internal standard, one value",
       "PricePlan" {
         "name": "string",
+        "description": string,
         "planType": "[subscription, transaction, oneoff]"
         "unitPrice":integer (for one call)
         "callLimit": integer (cap for transaction and oneoff API calls)
@@ -39,6 +40,7 @@
       }, 
       "PricePlan" {
         "name": "string", 
+        "description": string,
         "type": "[subscription, transaction, oneoff]" 
         ...
       }
