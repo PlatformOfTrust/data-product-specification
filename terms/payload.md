@@ -6,7 +6,7 @@ Data product contains payload which is a collection of [data points](data-point.
 
 ### Three payload data collection types
 
-Payload of data products have fixed schemas defined in ontology. Payload can contain three data streams or value sets: 
+Payload of data products have fixed schemas defined in ontology \([examples](https://dataproduct.oftrust.net/terms/payload#three-payload-data-collection-types)\). Payload can contain three data streams or value sets: 
 
 1. Current values \(array of objects\)
 2. History \(array of objects\)

@@ -6,12 +6,17 @@
 
 {
   "DataProduct": {
+    "@type": "Product",
     "idName": "string", (can contain weird characters and make it hard to use as identifier)
     "idSystem": PoT generated unique id (pick some hashing algorithm)
     "description": "long text",
     "lifecycleStatus: "[draft, development, testing, ready to publish, published, sunset, retired]",
     "version": 1,
-    "image": URI, 
+    "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
     "visibility": "[private, organisation, public]",
     "availability" {
       "Continents": "[Europe, Asia, Africa, Oceania, North America, South America, Global]"
@@ -21,6 +26,12 @@
     "validTo": date time, (can be empty),
     "createdAt": datetime,
     "updatedAt": datetime,
+    "keywords": "key, word",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "89"
+      },
     
     "Owner": {
       "orgName": string,

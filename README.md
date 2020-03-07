@@ -8,7 +8,7 @@ This Data Product Specification \(DPS\) definition in a vendor neutral and inten
 
 This Specification defines Standard Data Product fields and objects. This specification also defines the schemas for responses \(payload\).
 
-### Version 1 capabilities and limitations
+### Version 1 \(draft\) capabilities and limitations
 
 **Capabilities**
 
