@@ -8,6 +8,18 @@ This Specification defines Standard Data Product fields and objects. This specif
 
 All the Data Product meta data such as SLA object and Provider Object is accessed and managed with Product API. Payload of the Data Product is accessed with Broker API. 
 
+### Version 1 capabilities and limitations
+
+**Capabilities**
+
+* can be versioned
+* availability can be limited by continents and by countries
+* payload can have three options: current values, history values and prediction values
+
+**Limitations**
+
+* add
+
 
 
 
