@@ -126,10 +126,16 @@ In this example data product payload contains historical values of two measureme
 ```text
 {
   "DataProductPayload": {
+  "@context": "<context url>",
   "idName": string,  // data product name
-  "payloadOption: "historyValues", 
   "startDate":"date time", 
   "endDate": "date time",
+  "signature": {
+    "type": "<signature type>",
+    "created": "<RFC3339>",
+    "creator": "<public key URL>",
+    "signatureValue": "..."
+  }
   "group" {
       "payloadName": "co2",
       "unit": something, 
