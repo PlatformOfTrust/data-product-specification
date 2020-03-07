@@ -15,10 +15,14 @@ This Specification defines Standard Data Product fields and objects. This specif
 * can be versioned
 * availability can be limited by continents and by countries
 * payload can have three options: current values, history values and prediction values
+* SLA can be defined
+* Owner information
+* Creation and modification timestamps
+* visibility limitations
 
 **Limitations**
 
-* add
+* can not contain data under GDPR
 
 ### API practices in Platform of Trust
 
