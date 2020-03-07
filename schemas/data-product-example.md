@@ -13,7 +13,10 @@
     "version": 1,
     "image": URI, 
     "visibility": "[private, organisation, public]",
-    "availability": "[Europe, Asia, Africa, Oceania, North America, South America, Global]"
+    "availability" {
+      "Continents": "[Europe, Asia, Africa, Oceania, North America, South America, Global]"
+      "Countries": "[FI, SE]" // country codes
+    },
     "validFrom": data time, (can be empty)
     "validTo": date time, (can be empty),
     "createdAt": datetime,
@@ -36,7 +39,11 @@
         "unitPrice":integer (for one call)
         "callLimit": integer (cap for transaction and oneoff API calls)
         "unitPriceAdditional": integer (price for calls above callLimit)
-        "limitPeriod": "[hour, day, week, month, year]"   
+        "limitPeriod": "[hour, day, week, month, year]" 
+        "periodDataCap": {
+          "unit": "[GB]",
+          "value": integer
+        }   
         ...
       }, 
       "PricePlan" {
@@ -81,13 +88,16 @@
       "SLA": {
       
       }
-      
+    },
+    "Support": {
+    
     }
   }
 }
 
 ```
 
+* 
 ### Data Product Payload responses
 
 Data Product payload can have multiple slightly differing payloads. The structure of the schema is otherwise the same, but the `group` element contents and amount depends of the data product decisions made by data product owner. Possible payload options are:
