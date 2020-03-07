@@ -8,16 +8,11 @@ Connector schema defined the meta data for connector component.
     "idName": "string", (can contain weird characters and make it hard to use as identifier)
     "idSystem": PoT generated,
     "description": "long text",
-    "status: "[draft, development, testing, ready to publish, published, sunset, retired]",
+    "lifecycleStatus: "[draft, development, testing, ready to publish, published, sunset, retired]",
     "version": 1,
-    "image": URI, 
+    "image": URI,
+    "uri": uri, 
     "visibility": "[private, organisation, public]",
-    "availability" {
-      "Continents": "[Europe, Asia, Africa, Oceania, North America, South America, Global]"
-      "Countries": "[FI, SE]" // country codes
-    },
-    "validFrom": data time, (can be empty)
-    "validTo": date time, (can be empty),
     "createdAt": datetime,
     "updatedAt": datetime,
     "CreatedBy": {

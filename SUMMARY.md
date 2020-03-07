@@ -20,7 +20,7 @@
   * [ProviderObject](schemas/dps-document-schema/providerobject.md)
   * [SlaObject](schemas/dps-document-schema/slaobject.md)
   * [InfrastructureObject](schemas/dps-document-schema/infrastructure-object.md)
-  * [Connector Schema](schemas/dps-document-schema/connector-schema.md)
+* [Connector Schema](schemas/connector-schema.md)
 
 ## Canvases
 
