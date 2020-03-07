@@ -125,7 +125,8 @@ In this example data product payload contains historical values of two measureme
 
 ```text
 {
-  "DataProduct": {
+  "DataProductPayload": {
+  "idName": string,  // data product name
   "payloadOption: "historyValues", 
   "startDate":"date time", 
   "endDate": "date time",
