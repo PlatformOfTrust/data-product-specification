@@ -12,7 +12,8 @@
     "description": "long text",
     "lifecycleStatus: "[draft, development, testing, ready to publish, published, sunset, retired]",
     "version": 1,
-    "image": [
+    "logo": uri, 
+    "images": [
         "https://example.com/photos/1x1/photo.jpg",
         "https://example.com/photos/4x3/photo.jpg",
         "https://example.com/photos/16x9/photo.jpg"
