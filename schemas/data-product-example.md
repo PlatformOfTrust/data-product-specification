@@ -22,11 +22,17 @@
     "Pricing": {
       "currency": "according to some internal standard, one value",
       "PricePlan" {
-        "name": "string",   
+        "name": "string",
+        "planType": "[subscription, transaction, oneoff]"
+        "unitPrice":integer (for one call)
+        "callLimit": integer (cap for transaction and oneoff API calls)
+        "unitPriceAdditional": integer (price for calls above callLimit)
+        "limitPeriod": "[hour, day, week, month, year]"   
         ...
       }, 
       "PricePlan" {
         "name": "string", 
+        "type": "[subscription, transaction, oneoff]" 
         ...
       }
     },
@@ -40,8 +46,8 @@
           "payloadOptions: {
             "currenValues": {
               "parameters" : {
-                "startDate" : "Value",
-                "endDate" : "Value", 
+                "startDate" : datetime,
+                "endDate" : datetime, 
                 "measurements" : "[co2, noise, humid, occupancy, lights, temperature]",
                 "limit": integer (default value 500) 
               }
@@ -52,13 +58,13 @@
         }, 
         "connector: {
           "name": string,
-          "version: interger,
+          "version: integer,
           "uri": uri
         }
       }
     },
     "Conditions": {
-      "terms": "uri",
+      "terms": uri,
       "dataLicense":"license",
       "SLA": {
       
