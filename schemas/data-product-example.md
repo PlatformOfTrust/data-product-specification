@@ -15,13 +15,14 @@
     "visibility": "[private, organisation, public]",
     "availability": "[Europe, Asia, Africa, Oceania, North America, South America, Global]"
     "validFrom": data time, (can be empty)
-    "validTo": date time, (can be empty)
-    "createdAt": datetime
-    "updatedAt": datetime
+    "validTo": date time, (can be empty),
+    "createdAt": datetime,
+    "updatedAt": datetime,
+    
     "Owner": {
-      "orgName": string
-      "orgUri": uri
-      "orgId": string (coming from Platform of Trust)
+      "orgName": string,
+      "orgUri": uri,
+      "orgId": string (coming from Platform of Trust),
       "image": uri (logo)
        
       ...
