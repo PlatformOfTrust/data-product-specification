@@ -86,18 +86,29 @@
       "terms": uri,
       "dataLicense":"license",
       "SLA": {
-      
+        "objective": {
+          "responseTimeMs": integer, // example 250
+          "period": "[daily, weekly, monthly]"
       }
     },
     "Support": {
-    
+      "contact": {
+        "phone": string,
+        "email": email,
+      },
+      "online": {
+        "stackoverflow":"uri",
+        "twitter": uri,
+        "chat": uri,
+        "ticketSystem": uri
+      }
     }
   }
 }
 
 ```
 
-* 
+* * 
 ### Data Product Payload responses
 
 Data Product payload can have multiple slightly differing payloads. The structure of the schema is otherwise the same, but the `group` element contents and amount depends of the data product decisions made by data product owner. Possible payload options are:
