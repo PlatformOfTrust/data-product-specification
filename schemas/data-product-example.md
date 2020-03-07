@@ -9,7 +9,7 @@
     "idName": "string", (can contain weird characters and make it hard to use as identifier)
     "idSystem": PoT generated unique id (pick some hashing algorithm)
     "description": "long text",
-    "status: "[draft, development, testing, ready to publish, published, sunset, retired]",
+    "lifecycleStatus: "[draft, development, testing, ready to publish, published, sunset, retired]",
     "version": 1,
     "image": URI, 
     "visibility": "[private, organisation, public]",
