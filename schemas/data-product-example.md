@@ -42,6 +42,7 @@ This would offer flexibility in limiting the amount of data in cases where just 
         "reviewCount": "89"
       },
     
+    "trustIndexValue": string? // Vesa knows about this. 
     "Owner": {
       "orgName": string,
       "orgUri": uri,
