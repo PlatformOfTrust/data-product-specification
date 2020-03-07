@@ -10,7 +10,11 @@ A data product is the item offered for sale. A data product is a commodity. Ever
   
 **A product should be adaptable**_:_ with trends, time and change in segments, the product should lend itself to adaptation to make it more relevant and maintain its revenue stream.
 
+### Layers
 
+Data product is related to three layers. Digital twin defines the context and available data sources \(devices\). Data Product meta information layer contains business and infrastructure related information. Data Product Payload layer is the actual data product content. 
+
+![](../.gitbook/assets/platform-connectors-1.jpg)
 
 ### Entities of the Data Product
 
