@@ -28,7 +28,7 @@ This Specification defines Standard Data Product fields and objects. This specif
 
 ### Rich meta data model
 
-Significant part of the data products will be sold in market places. Common approach is to use content-based recommendation which is based on the assumption that descriptive features of an item \(meta data, words in description, price, tags, etc.\) tell much about a user’s preferences to the item. Thus a recommender system makes a decision for a user based on the descriptive features of other items the user likes or dislikes. However, in traditional e-commerce systems, products usually have very limited description \(title, user reviews, etc.\). The effectiveness of content-based approaches is limited. Thus we have rich meta data model. 
+Significant part of the data products will be sold in market places. Common approach is to use content-based recommendation which is based on the assumption that descriptive features of an item \(meta data, words in description, price, tags, etc.\) tell much about a user’s preferences to the item. Thus a recommender system makes a decision for a user based on the descriptive features of other items the user likes or dislikes. However, in traditional e-commerce systems, products usually have very limited description \(title, user reviews, etc.\). The effectiveness of content-based approaches is limited. Thus we have rich meta data model, which will increase the opportunities and effectiveness of content-based recommendations. 
 
 ### API practices in Platform of Trust
 
