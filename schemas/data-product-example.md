@@ -145,6 +145,8 @@ Data Product payload can have multiple slightly differing payloads. The structur
 In this example data product payload contains historical values of two measurements: CO2 and humidity. 
 
 ```text
+HTTP/1.0 200
+
 {
   "DataProductPayload": {
   "@context": "<context url>",
@@ -203,15 +205,15 @@ In this example data product payload contains historical values of two measureme
   "links": [
       {
           "rel": "self",
-          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30",
+          "href": "http://api.oftrust.net/broker/v1/fetch-data-product?limit=30",
       },
       {
           "rel": "first",
-          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30&from=0",
+          "href": "http://api.oftrust.net/broker/v1/fetch-data-product ?limit=30&from=0",
       },
       {
           "rel": "next",
-          "href": "http://api.oftrust.net/v1/marketplace/apps?limit=30&from=30",
+          "href": "http://api.oftrust.net/broker/v1/fetch-data-product?limit=30&from=30",
       }
   ]
   
