@@ -1,4 +1,4 @@
-# Data Product Mockup
+# Standard Data Product Mockup
 
 
 
@@ -8,7 +8,7 @@ In Product API implementation it might be a good idea to parametrize the amount 
 This would offer flexibility in limiting the amount of data in cases where just the basic product meta data information is needed. 
 {% endhint %}
 
-### Data Product Meta Information
+### Standard Data Product Meta Information
 
 ```text
 
@@ -84,14 +84,21 @@ This would offer flexibility in limiting the amount of data in cases where just 
           "payloadOptions: {
             "currenValues": {
               "parameters" : {
+                "startDate" : datetime (now),
+                "endDate" : datetime (now), 
+                "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", (should be defined in connector metadata)
+                "limit": integer (default value 500)
+               
+              }
+            },
+            "historyValues: {
+              "parameters" : {
                 "startDate" : datetime,
                 "endDate" : datetime, 
                 "measurements" : "[co2, noise, humid, occupancy, lights, temperature]", (should be defined in connector metadata)
                 "limit": integer (default value 500)
-                "offset":  
-              }
+                }
             },
-            "historyValues: {},
             "predictionValues": {}
           }
         }, 
