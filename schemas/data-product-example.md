@@ -77,7 +77,6 @@ This would offer flexibility in limiting the amount of data in cases where just 
     "Infrastructure": { 
       "connectors: {
         "connector: {
-          "monitoring": "dashboard.oftrust.net" (Data Flow tool URI)
           "name": string,
           "version: integer,
           "uri": uri, 
@@ -118,7 +117,8 @@ This would offer flexibility in limiting the amount of data in cases where just 
           "period": "[daily, weekly, monthly]",
           "responseTimeMs": integer, // example 250
           "availability":"[90%, 95%, 97.5%, 98%, 99%, 99.9%, 99.99%]
-      }
+        },
+      "monitoring": "dashboard.oftrust.net" (Data Flow tool URI),
     },
     "Support": {
       "contact": {
