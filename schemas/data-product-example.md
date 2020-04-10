@@ -77,7 +77,7 @@ This would offer flexibility in limiting the amount of data in cases where just 
     "Infrastructure": { 
       "connectors: {
         "connector: {
-          "monitoring": status.oftrust.net,
+          "monitoring": "dashboard.oftrust.net" (Data Flow tool URI)
           "name": string,
           "version: integer,
           "uri": uri, 
