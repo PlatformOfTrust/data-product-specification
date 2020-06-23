@@ -13,13 +13,10 @@
 
 * [Standard Data Product Mockup](schemas/data-product-example.md)
 * [Data Product Schema](schemas/dps-document-schema/README.md)
-  * [PayloadObject](schemas/dps-document-schema/payloadobject.md)
-  * [PricingObject](schemas/dps-document-schema/pricingobject.md)
-  * [ServiceManagementObject](schemas/dps-document-schema/servicemanagementobject.md)
-  * [ConnectorsObject](schemas/dps-document-schema/connectorsobject.md)
-  * [ProviderObject](schemas/dps-document-schema/providerobject.md)
-  * [SlaObject](schemas/dps-document-schema/slaobject.md)
-  * [InfrastructureObject](schemas/dps-document-schema/infrastructure-object.md)
+  * [ConditionObject](schemas/dps-document-schema/conditionobject.md)
+  * [PricePlanObject](schemas/dps-document-schema/priceplanobject.md)
+  * [QualityObject](schemas/dps-document-schema/qualityobject.md)
+  * [ServiceObject](schemas/dps-document-schema/serviceobject.md)
 * [Connector Schema](schemas/connector-schema.md)
 
 ## Canvases
