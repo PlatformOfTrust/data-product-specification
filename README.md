@@ -45,7 +45,7 @@ The main principle of modeling entities and properties related to a data product
 
 Due to nature of data products, Platform of Trust is suggesting a data product license (DPL) as a default contract for data product market. In order to be compatible with systems relying on automation, a DPL should be a smart contract that means a computer program or a transaction protocol, which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a DPL.
 
-## Quality Attributes of Data Product Model
+## Quality attributes of Data Product Model
 
 Platform of Trust has recognized ten attributes related to data quality. The attributes and their level of legal binding are defined in data product license (DPL). The quality attributes are the following:
 
