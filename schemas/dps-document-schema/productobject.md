@@ -1,6 +1,6 @@
-# Data Product Schema
+# Product
 
-A data product consists of five different entities: product, service, price plan, condition and quality. The properties that belong to them are described in more detail in each of the sections.
+Product covers properties that describe commercial information about the product such as commercial names, product codes, versions and life-cycle status.
 
 | Property Category | Property | Type | Label | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -9,9 +9,15 @@ A data product consists of five different entities: product, service, price plan
 | description | additionalInformation | string | Additional information | Additional information. |
 | description | descriptionGeneral | string | Description | Description. |
 | description | imageUrl | string | Product image | Link to product image. |
+| financial | priceCurrent | decimal | Estimated price | Estimated value of the current price. |
+| financial | pricePurchase | decimal | Purchase price | Purchase price. |
+| financial | priceSell | decimal | Sales price | Sales price. |
 | identifier | codeProduct | string | Product code | Unique product code given by manufacturer. |
+| identifier | ean | string | EAN code | EAN standard based identifier. |
+| identifier | gTIN | string | GTIN code | GTIN standard based identifier. |
 | identifier | groupCode | string | Product group code | Unique product group code given by manufacturer. |
 | identifier | groupName | string | Product group name | Unique product group name given by manufacturer. |
+| identifier | id | string | | |
 | identifier | name | string | Name | Name.
 | identifier | url | string | URL address | URL address. |
 | lifeCycle | status | string | Life-cycle status | Life-cycle status.
