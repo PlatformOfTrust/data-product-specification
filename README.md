@@ -45,3 +45,26 @@ The main principle of modeling entities and properties related to a data product
 
 Due to nature of data products, Platform of Trust is suggesting a data product license (DPL) as a default contract for data product market. In order to be compatible with systems relying on automation, a DPL should be a smart contract that means a computer program or a transaction protocol, which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a DPL.
 
+## Quality attributes of Data Product Model
+
+Platform of Trust has recognized ten attributes related to data quality. The attributes and their level of legal binding are defined in data product license (DPL). The quality attributes are the following:
+
+**Correctness verification level** describes methods for data correctness verification. A simple verification is a data publisher’s assurance about data’s correctness and its origin in data product license (DPL).
+
+**Harmonization level** describes the extent of data harmonization that means comparability of data values with other data values.
+
+**Interoperability level** describes how interoperable a digital twin (identity network) of data is. The more accurately a digital twin is modelled with a common information model, the more interoperable it is.
+
+**Availablility rate** is uptime of the data source. It is defined in relation to time and presented as a percentage.
+
+**Update frequency** means how the data is being updated. It is defined in relation to time.
+
+**Accuracy** is also known as trueness. It tells how close the measured value is to the true value. Accuracy is about systematic margin of error.
+
+**Precision** means closeness of the measured values to each other, if the measurement is repeated. Precision is about random margin of error.
+
+**Faultlessness rate** is the rate of faultless values in all fields. It is presented as a percentage.
+
+**Completeness rate** is the rate of full fields in all fields. It is presented as a percentage.
+
+**Security level** describes data security solutions of the data source.
