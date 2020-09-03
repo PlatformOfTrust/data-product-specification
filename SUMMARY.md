@@ -18,7 +18,6 @@
   * [Quality](schemas/dps-document-schema/qualityobject.md)
   * [Service](schemas/dps-document-schema/serviceobject.md)
   * [Product](schemas/dps-document-schema/productobject.md)
-* [Connector Schema](schemas/connector-schema.md)
 
 ## Canvases
 
