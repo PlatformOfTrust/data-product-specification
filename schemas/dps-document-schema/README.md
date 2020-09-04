@@ -17,7 +17,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    		"currency": "euro",
    		"unit": "monthly, quantity",
    		"unitGroup": "subscription, transaction",
-   		"vatincluded": "",
+   		"vatIncluded": "",
    		"vatPercentge": ""
    }],
    "quality": [{
