@@ -72,5 +72,5 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 ### Suggestions:
 
-**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data consumption. 
+**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data products. 
 
