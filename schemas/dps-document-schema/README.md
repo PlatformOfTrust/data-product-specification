@@ -4,7 +4,7 @@ A data product consists of five different entities: product, service, price plan
 
 Below is the example of DataProduct. Entitites definitions can be found in respective subpages.
 
-```json
+```javascript
 {
    "condition": [{
       "name":"Reselling limitation",
@@ -13,33 +13,34 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
       "categorizationPoT": "dataProduct"
    }],
    "priceplan": [{
-   		"name":"Organization contact information - Finland",
-   		"currency": "euro",
-   		"unit": "monthly, quantity",
-   		"unitGroup": "subscription, transaction",
-   		"vatIncluded": "",
-   		"vatPercentge": ""
+           "name":"Organization contact information - Finland",
+           "currency": "euro",
+           "unit": "monthly, quantity",
+           "unitGroup": "subscription, transaction",
+           "vatIncluded": "",
+           "vatPercentge": ""
    }],
    "quality": [{
-   		"name":"Information updating",
-   		"categorizationLocal": "Update frequancy",
-   		"categorizationPoT": "dataProduct",
-   		"descriptionGeneral": "Information is updated once per day"
+           "name":"Information updating",
+           "categorizationLocal": "Update frequancy",
+           "categorizationPoT": "dataProduct",
+           "descriptionGeneral": "Information is updated once per day"
    }],
    "service": [{
-   		"name":"Phone support hours",
-   		"descriptionGeneral": "Support is available between 08-16 weekdays.",
-   		"categorizationLocal": "Support",
-   		"categorizationPoT": "dataProduct"
+           "name":"Phone support hours",
+           "descriptionGeneral": "Support is available between 08-16 weekdays.",
+           "categorizationLocal": "Support",
+           "categorizationPoT": "dataProduct"
    }],
    "product": {
-   		"categorizationPoT": "dataProduct",
-   		"descriptionGeneral": "xxxxxxxxxxx",
-   		"name": "Organization contact information",
-   		"version": "1.0",
-   		"visibility": "organisation, public",
-   		"validFrom": "2020-01-01",
-   		"validTo": "2020-12-31"
-   	}
+           "categorizationPoT": "dataProduct",
+           "descriptionGeneral": "xxxxxxxxxxx",
+           "name": "Organization contact information",
+           "version": "1.0",
+           "visibility": "organisation, public",
+           "validFrom": "2020-01-01",
+           "validTo": "2020-12-31"
+       }
 }
 ```
+
