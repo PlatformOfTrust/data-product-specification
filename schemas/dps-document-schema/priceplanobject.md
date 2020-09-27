@@ -57,13 +57,7 @@ Supported types of plans are:
   </tbody>
 </table>
 
-* Free
-* Usage based
-* Package pricing
-* Flat fee tariff
-* Two-part tariff
-* Freemium
-* Subscription
+### Schema elements
 
 | Property Category | Property | Type | Label | Description |
 | :--- | :--- | :--- | :--- | :--- |
