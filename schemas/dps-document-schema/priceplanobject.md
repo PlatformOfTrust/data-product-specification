@@ -72,3 +72,12 @@ Supported types of plans are:
 
 Can someone tell me how do I mark the supported plan types with above element? 
 
+```text
+"Pricing"{
+    "PricePlan"....
+    "PricePlan"....
+}
+```
+
+
+
