@@ -70,5 +70,5 @@ Supported types of plans are:
 
 ### Examples
 
-
+Can someone tell me how do I mark the supported plan types with above element? 
 
