@@ -11,14 +11,15 @@
 
 ## Schemas
 
-* [Data Product Example](schemas/data-product-example.md)
-* [Data Product Schema](schemas/dps-document-schema/README.md)
-  * [Condition](schemas/dps-document-schema/conditionobject.md)
-  * [PricePlan](schemas/dps-document-schema/priceplanobject.md)
-  * [Quality](schemas/dps-document-schema/qualityobject.md)
-  * [Service](schemas/dps-document-schema/serviceobject.md)
-  * [Product](schemas/dps-document-schema/productobject.md)
-  * [Connector](schemas/dps-document-schema/connectorobject.md)
+* [Data Product](schemas/dps-document-schema/README.md)
+  * [Condition](schemas/dps-document-schema/condition.md)
+  * [PricePlan](schemas/dps-document-schema/priceplan.md)
+  * [Quality](schemas/dps-document-schema/quality.md)
+  * [Service](schemas/dps-document-schema/service.md)
+  * [Connector](schemas/dps-document-schema/connector.md)
+  * [Ontology](schemas/dps-document-schema/ontology.md)
+  * [Status](schemas/dps-document-schema/status.md)
+  * [Monitoring](schemas/dps-document-schema/monitoring.md)
 
 ## Canvases
 
