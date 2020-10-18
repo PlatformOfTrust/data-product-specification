@@ -44,3 +44,11 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 }
 ```
 
+| Property Category | Property | Type | Label | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| description | condition | Condition | Condition | Conditions associated with DataProduct. |
+| description | priceplan | PricePlan | PricePlan | PricePlans associated with DataProduct. |
+| description | quality | Quality | Quality | Quality associated with DataProduct. |
+| description | service | Service | Service | Service associated with DataProduct. |
+| description | product | Product | Product | Product witch represents DataProduct. |
+| description | connector | Connector | Connector | Connector implementations of DataProduct. |
