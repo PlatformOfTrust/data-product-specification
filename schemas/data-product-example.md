@@ -30,6 +30,14 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
          "categorizationLocal":"Update frequancy",
          "categorizationPoT":"dataProduct",
          "descriptionGeneral":"Information is updated once per day"
+      },
+      {
+         "name":"Uptime",		 
+         "value":"99%"
+      },
+      {
+         "name":"Response time",
+         "value":"400 ms"
       }
    ],
    "service":[
@@ -43,15 +51,19 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    "product":{
       "categorizationPoT":"dataProduct",
       "descriptionGeneral":"xxxxxxxxxxx",
-      "name":"Organization contact information",
+      "name":"Product catalog",
+      "harmonized":true,
+      "monitoring":{
+         "url":"https://status.uptimerobot.com/"
+      },
       "ontologyDefinition":{
          "version":"2.0",
          "versionHistory":[
             "1.2",
             "2.0"
          ],
-         "requestContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
-         "responseContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
+         "requestContext":"https://standards.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
+         "responseContext":"https://standards.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
       },
       "visibility":"organisation, public",
       "validFrom":"2020-01-01",
@@ -60,9 +72,23 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    "connector":[
       {
          "name":"Connector",
-		 "description": "Connector for organization contact information.",
+         "description":"Connector for organization contact information.",
          "version":"2.0",
-         "uri":"https://connector.com/api/methodname",
+         "harmonized":true,
+         "monitoring":{
+            "url":"https://status.uptimerobot.com/"
+         },
+         "quality":[
+            {
+               "name":"Uptime",
+               "value":"99%"
+            },
+            {
+               "name":"Response time",
+               "value":"400 ms"
+            }
+         ],
+         "url":"https://connector.com/api/methodname",
          "supportedOntologyVersion":[
             "1.0",
             "2.0"
@@ -70,9 +96,23 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
       },
       {
          "name":"Connector2",
-		 "description": "Connector for organization contact information 2."
+         "description":"Connector for organization contact information 2.",
          "version":"3.0",
-         "uri":"https://connector.com/api/methodname",
+         "harmonized":true,
+         "monitoring":{
+            "url":"https://status.uptimerobot.com/"
+         },
+         "quality":[
+            {
+               "name":"Uptime",
+               "value":"99%"
+            },
+            {
+               "name":"Response time",
+               "value":"400 ms"
+            }
+         ],
+         "url":"https://connector.com/api/methodname",
          "supportedOntologyVersion":[
             "1.0"
          ]
