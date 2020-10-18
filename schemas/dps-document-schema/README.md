@@ -13,11 +13,9 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    "validTo":"2020-12-31",
    "status":[
       {
-         "@type":"Status",
          "name":"Published"
       },
       {
-         "@type":"Status",
          "name":"Maintenance scheduled",
          "decriptionGeneral":"DataProduct Service Update on Wednesday April 18 at 20:00 UTC. Expected duration 2 hours."
       }
