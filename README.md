@@ -56,7 +56,7 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 **Interoperability level** describes how interoperable a digital twin \(identity network\) of data is. The more accurately a digital twin is modelled with a common information model, the more interoperable it is.
 
-**Availablility rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%. 
+**Availability rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%. 
 
 **Update frequency** means how the data is being updated. It is defined in relation to time.
 
