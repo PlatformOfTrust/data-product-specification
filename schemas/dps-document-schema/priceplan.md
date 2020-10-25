@@ -65,16 +65,53 @@ Supported types of plans are:
 | financial | currency | string | Currency | Currency used for rate. |
 | physical | unit | string | Unit | Unit used \(Defines unit which is used\). |
 | physical | unitGroup | string | Unit group | Unit group name/definition. |
+| physical | quantity | integer | Quantity | |
 | financial | vatIncluded | boolean | VAT included in rate | Information if VAT is included in the rate \(price per unit\). |
 | financial | vatPercentage | integer | VAT percentage | Percentage value used for VAT taxation. |
+| financial | rate | string | Rate | |
 
 ### Examples
 
-Can someone tell me how do I mark the supported plan types with above element? 
+```javascript
+{
+   "name":"FREE",
+   "currency":"NA",
+   "unitGroup":"Transaction",
+   "unit":"Transaction",
+   "quantity":1,
+   "rate":0
+}
+```
 
 ```javascript
-"Pricing"{
-    "PricePlan"....
-    "PricePlan"....
+{
+   "name":"Premium Package",
+   "currency":"Euro",
+   "unitGroup":"Transaction",
+   "unit":"Transaction",
+   "quantity":100000,
+   "rate":100
+}
+```
+
+```javascript
+{
+   "name":"Premium subscription 1 year",
+   "currency":"Euro",
+   "unitGroup":"Duration",
+   "unit":"year",
+   "quantity":1,
+   "rate":1000
+}
+```
+
+```javascript
+{
+   "name":"Pay-Per-Use Standard",
+   "currency":"Euro",
+   "unitGroup":"Transaction",
+   "unit":"Transaction",
+   "quantity":1,
+   "rate":1
 }
 ```
