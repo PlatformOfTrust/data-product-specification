@@ -167,3 +167,10 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 | other | visibility | valueset | Product visibility | Product visibility restriction defined by PoT. |
 | time | validFrom | dateTime | Validity period start time | Validity period start time. |
 | time | validTo | dateTime | Validity period end time | Validity period end time. |
+
+
+Value sets
+
+| Property Category | Property | List of values |
+| :--- | :--- | :--- |
+| lifeCycle | status | planned, in development, ready for publish, active/published, supported, not in support, retired, replaced |

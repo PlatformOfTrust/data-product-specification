@@ -8,4 +8,10 @@ Condition covers properties related product limitations which describe how a pro
 | description | descriptionGeneral | string | Description | Description. |
 | categorization | categorizationLocal | string | Local category | Categorisation name given locally. |
 | categorization | categorizationPoT | valueset | PoT category | Categorization class name in PoT standard. |
+| location | location | Location | Condition location | Location where condition apply. |
 
+Value sets
+
+| Property Category | Property | List of values |
+| :--- | :--- | :--- |
+| categorization | categorizationPoT | geographical availability, private, partner, public, only for internal use, reformatable, resellable|
