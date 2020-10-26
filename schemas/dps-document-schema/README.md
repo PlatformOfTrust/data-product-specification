@@ -158,6 +158,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 | identifier | id | string |  |  |
 | identifier | name | string | Name | Name. |
 | identifier | url | string | URL address | URL address. |
+| identifier | logo | string | | |
 | lifeCycle | status | string | Life-cycle status | Life-cycle status. |
 | lifeCycle | version | string | Version name | Version name. |
 | metadata | createdAt | dateTime | Creation time | Time when the data is created. |
@@ -167,7 +168,6 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 | other | visibility | valueset | Product visibility | Product visibility restriction defined by PoT. |
 | time | validFrom | dateTime | Validity period start time | Validity period start time. |
 | time | validTo | dateTime | Validity period end time | Validity period end time. |
-
 
 Value sets
 
