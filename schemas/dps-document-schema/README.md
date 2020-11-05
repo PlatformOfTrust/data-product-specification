@@ -42,7 +42,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
          "name":"Reselling limitation",
          "descriptionGeneral":"Information cannot be sold further. Only to be used within buying organization.",
          "categorizationLocal":"usage",
-         "categorizationPoT":"dataProduct"
+         "categorizationPoT":"only for internal use"
       }
    ],
    "priceplan":[
