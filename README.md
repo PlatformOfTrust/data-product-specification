@@ -44,13 +44,13 @@ The main principle of modeling entities and properties related to a data product
 
 **Contract** gathers together in one document all negotiated and non-negotiable information of a data product. A contract is formed when a data product customer purchases a product. A data publisher may set terms and conditions of a contract to be negotiable or non-negotiable. A contract defines all parties and their roles related to a data product. The parties must include at least a data publisher and a data product customer. If there are any other relevant parties, they must be defined. The permissions needed to access data are derived from roles and conditions of a contract. Other information defined in a contract is a term, limitations of use and payment related information, as well as what how to proceed if a party wants to stop using a data product.
 
+Due to nature of data products, Platform of Trust is suggesting a data product license \(DPL\) as a default contract for data product market. In order to be compatible with systems relying on automation, a DPL should be a smart contract that means a computer program or a transaction protocol, which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a DPL.
+
 **Connector** covers properties required to utilize connector and access actual data product.
 
 **Monitoring** covers properties related to monitoring services associated with data product.
 
 **Status** contains actual status information of data product.
-
-Due to nature of data products, Platform of Trust is suggesting a data product license \(DPL\) as a default contract for data product market. In order to be compatible with systems relying on automation, a DPL should be a smart contract that means a computer program or a transaction protocol, which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a DPL.
 
 ## Quality attributes of Data Product Model
 
