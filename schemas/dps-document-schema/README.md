@@ -1,4 +1,4 @@
-# Data Product Schema
+# Data Product
 
 Below is the example of DataProduct. Entitites definitions can be found in respective subpages.
 
@@ -158,7 +158,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 | identifier | id | string |  |  |
 | identifier | name | string | Name | Name. |
 | identifier | url | string | URL address | URL address. |
-| identifier | logo | string | | |
+| identifier | logo | string |  |  |
 | lifeCycle | status | string | Life-cycle status | Life-cycle status. |
 | lifeCycle | version | string | Version name | Version name. |
 | metadata | createdAt | dateTime | Creation time | Time when the data is created. |
@@ -174,3 +174,4 @@ Value sets
 | Property Category | Property | List of values |
 | :--- | :--- | :--- |
 | lifeCycle | status | planned, in development, ready for publish, active/published, supported, not in support, retired, replaced |
+

@@ -14,4 +14,5 @@ Value sets
 
 | Property Category | Property | List of values |
 | :--- | :--- | :--- |
-| categorization | categorizationPoT | geographical availability, private, partner, public, only for internal use, reformatable, resellable|
+| categorization | categorizationPoT | geographical availability, private, partner, public, only for internal use, reformatable, resellable |
+
