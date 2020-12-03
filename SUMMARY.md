@@ -19,7 +19,8 @@
   * [Ontology](schemas/dps-document-schema/ontology.md)
   * [PricePlan](schemas/dps-document-schema/priceplan.md)
   * [Quality](schemas/dps-document-schema/quality.md)
-  * [Service](schemas/dps-document-schema/service.md)
+  * [Rule](schemas/dps-document-schema/rule.md)
+  * [Service](schemas/dps-document-schema/service.md)  
   * [Status](schemas/dps-document-schema/status.md)
 
 ## Canvases
