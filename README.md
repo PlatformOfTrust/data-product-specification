@@ -6,7 +6,7 @@ description: 'version: 0.1'
 
 ## Introduction
 
-Platform of Trust has taken the initiative to formulate Data Product Specification \(DPS\) to enhance the open data movement. We are formulating the commercial aspects related to monetizing data in a form of data products. The goal is to enable data rights holders to commercialize their data in order to accelerate the emerging data economy.
+Platform of Trust has taken the initiative to formulate Data Product Specification \(DPS\) to enhance data commoditization and monetization. We are formulating the commercial aspects related to monetizing data in a form of data products. The goal is to enable data rights holders to commercialize their data in order to accelerate the emerging data economy.
 
 An underlying enabler is the universal information model \(Platform of Trust Ontology\) which allows data to be harmonized across business domains. Once data is harmonized it becomes critical that commercialization of the data is easy and transparent. Commercial transactions should be controlled and monitored so that trust between data publishers and customers can be achieved.
 
@@ -62,7 +62,7 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 **Interoperability level** describes how interoperable a digital twin \(identity network\) of data is. The more accurately a digital twin is modelled with a common information model, the more interoperable it is.
 
-**Availability rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%. 
+**Availability rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%.
 
 **Update frequency** means how the data is being updated. It is defined in relation to time.
 
@@ -76,5 +76,5 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 **Security level** describes data security solutions of the data source.
 
-**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data products. 
+**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data products.
 

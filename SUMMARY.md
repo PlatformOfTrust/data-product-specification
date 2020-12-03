@@ -26,3 +26,4 @@
 ## Canvases
 
 * [From data to products](canvases/from-data-to-products.md)
+

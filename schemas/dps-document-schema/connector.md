@@ -9,3 +9,4 @@ Connector covers properties that describe information about actual implementatio
 | identifier | uri | string | Endpoint uri | Endpoint uri. |
 | lifeCycle | version | string | Version name | Version name. |
 | lifeCycle | supportedOntologyVersion | string | Supported Ontology versions | Supported Ontology versions. |
+
