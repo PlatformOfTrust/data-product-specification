@@ -75,29 +75,43 @@ Supported types of plans are:
 ```javascript
 {
    "name":"FREE",
-   "currency":"NA",
    "unitGroup":"Transaction",
    "unit":"Transaction",
-   "quantity":1,
    "rate":0
 }
 ```
 
 ```javascript
-{
-   "name":"Premium Package",
-   "currency":"Euro",
-   "unitGroup":"Transaction",
-   "unit":"Transaction",
-   "quantity":100000,
-   "rate":100
-}
+[
+   {
+      "name":"Premium Package",
+      "currency":"EUR",
+      "unitGroup":"Transaction",
+      "unit":"Transaction",
+      "quantity":100000,
+      "rule":{
+         "maxQuantity":100000
+      },
+      "rate":100
+   },
+   {
+      "name":"Extra Requests",
+      "currency":"EUR",
+      "unitGroup":"Transaction",
+      "unit":"Transaction",
+      "quantity":1,
+      "rule":{
+         "minQuantity":100001
+      },
+      "rate":0.5
+   }
+]
 ```
 
 ```javascript
 {
    "name":"Premium subscription 1 year",
-   "currency":"Euro",
+   "currency":"EUR",
    "unitGroup":"Duration",
    "unit":"year",
    "quantity":1,
@@ -108,10 +122,9 @@ Supported types of plans are:
 ```javascript
 {
    "name":"Pay-Per-Use Standard",
-   "currency":"Euro",
+   "currency":"EUR",
    "unitGroup":"Transaction",
    "unit":"Transaction",
-   "quantity":1,
    "rate":1
 }
 ```
