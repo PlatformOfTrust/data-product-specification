@@ -1,12 +1,12 @@
 ---
-description: 'version: draft'
+description: 'version: 0.1'
 ---
 
-# Data Product Specification Summary \(DRAFT\)
+# Data Product Specification Summary
 
 ## Introduction
 
-Platform of Trust has taken the initiative to formulate Data Product Specification \(DPS\) to enhance the open data movement. We are formulating the commercial aspects related to monetizing data in a form of data products. The goal is to enable data rights holders to commercialize their data in order to accelerate the emerging data economy.
+Platform of Trust has taken the initiative to formulate Data Product Specification \(DPS\) to enhance data commoditization and monetization. We are formulating the commercial aspects related to monetizing data in a form of data products. The goal is to enable data rights holders to commercialize their data in order to accelerate the emerging data economy.
 
 An underlying enabler is the universal information model \(Platform of Trust Ontology\) which allows data to be harmonized across business domains. Once data is harmonized it becomes critical that commercialization of the data is easy and transparent. Commercial transactions should be controlled and monitored so that trust between data publishers and customers can be achieved.
 
@@ -46,6 +46,12 @@ The main principle of modeling entities and properties related to a data product
 
 Due to nature of data products, Platform of Trust is suggesting a data product license \(DPL\) as a default contract for data product market. In order to be compatible with systems relying on automation, a DPL should be a smart contract that means a computer program or a transaction protocol, which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a DPL.
 
+**Connector** covers properties required to utilize connector and access actual data product.
+
+**Monitoring** covers properties related to monitoring services associated with data product.
+
+**Status** contains actual status information of data product.
+
 ## Quality attributes of Data Product Model
 
 Platform of Trust has recognized ten attributes related to data quality. The attributes and their level of legal binding are defined in data product license \(DPL\). The quality attributes are the following:
@@ -56,7 +62,7 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 **Interoperability level** describes how interoperable a digital twin \(identity network\) of data is. The more accurately a digital twin is modelled with a common information model, the more interoperable it is.
 
-**Availability rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%. 
+**Availability rate** is uptime of the data source. It is defined in relation to time and presented as a percentage. Normally value is one of: 90%, 95%, 97.5%, 98%, 99.9%, 99.99%.
 
 **Update frequency** means how the data is being updated. It is defined in relation to time.
 
@@ -70,7 +76,5 @@ Platform of Trust has recognized ten attributes related to data quality. The att
 
 **Security level** describes data security solutions of the data source.
 
-### Suggestions:
-
-**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data products. 
+**Response Time** is targeted time in which data product will return payload response. Unit is milliseconds. This applies to request-response type of data products.
 

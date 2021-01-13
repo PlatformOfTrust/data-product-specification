@@ -32,7 +32,6 @@ Supported types of plans are:
         <p>Package pricing refers to a pricing model that offers a customer a certain
           amount of data or API calls for a fixed fee and pay fee per unit for exceeding
           calls.</p>
-        <p></p>
         <p>In this context amount of data is data cap which might be attached to
           plan. API calls is relevant if the product is request-response type. On
           subscription product this does not make sense.</p>
@@ -57,7 +56,7 @@ Supported types of plans are:
   </tbody>
 </table>
 
-### Schema elements
+## Schema elements
 
 | Property Category | Property | Type | Label | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -65,39 +64,53 @@ Supported types of plans are:
 | financial | currency | string | Currency | Currency used for rate. |
 | physical | unit | string | Unit | Unit used \(Defines unit which is used\). |
 | physical | unitGroup | string | Unit group | Unit group name/definition. |
-| physical | quantity | integer | Quantity | |
+| physical | quantity | integer | Quantity |  |
 | financial | vatIncluded | boolean | VAT included in rate | Information if VAT is included in the rate \(price per unit\). |
 | financial | vatPercentage | integer | VAT percentage | Percentage value used for VAT taxation. |
-| financial | rate | string | Rate | |
+| financial | rate | string | Rate |  |
 
-### Examples
+## Examples
 
 ```javascript
 {
    "name":"FREE",
-   "currency":"NA",
    "unitGroup":"Transaction",
    "unit":"Transaction",
-   "quantity":1,
    "rate":0
 }
 ```
 
 ```javascript
-{
-   "name":"Premium Package",
-   "currency":"Euro",
-   "unitGroup":"Transaction",
-   "unit":"Transaction",
-   "quantity":100000,
-   "rate":100
-}
+[
+   {
+      "name":"Premium Package",
+      "currency":"EUR",
+      "unitGroup":"Transaction",
+      "unit":"Transaction",
+      "quantity":100000,
+      "rule":{
+         "maxQuantity":100000
+      },
+      "rate":100
+   },
+   {
+      "name":"Extra Requests",
+      "currency":"EUR",
+      "unitGroup":"Transaction",
+      "unit":"Transaction",
+      "quantity":1,
+      "rule":{
+         "minQuantity":100001
+      },
+      "rate":0.5
+   }
+]
 ```
 
 ```javascript
 {
    "name":"Premium subscription 1 year",
-   "currency":"Euro",
+   "currency":"EUR",
    "unitGroup":"Duration",
    "unit":"year",
    "quantity":1,
@@ -108,10 +121,10 @@ Supported types of plans are:
 ```javascript
 {
    "name":"Pay-Per-Use Standard",
-   "currency":"Euro",
+   "currency":"EUR",
    "unitGroup":"Transaction",
    "unit":"Transaction",
-   "quantity":1,
    "rate":1
 }
 ```
+

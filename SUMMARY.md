@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Data Product Specification Summary \(DRAFT\)](README.md)
+* [Data Product Specification Summary](README.md)
 
 ## Key concepts <a id="terms"></a>
 
@@ -19,9 +19,11 @@
   * [Ontology](schemas/dps-document-schema/ontology.md)
   * [PricePlan](schemas/dps-document-schema/priceplan.md)
   * [Quality](schemas/dps-document-schema/quality.md)
+  * [Rule](schemas/dps-document-schema/rule.md)
   * [Service](schemas/dps-document-schema/service.md)  
   * [Status](schemas/dps-document-schema/status.md)
 
 ## Canvases
 
 * [From data to products](canvases/from-data-to-products.md)
+
