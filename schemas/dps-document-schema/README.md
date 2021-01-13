@@ -30,7 +30,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    },
    "ontology":{
       "harmonized":true,
-      "supportedPayloads":{
+      "supportedPayload":{
          "currentValues":{
             "requestContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
             "responseContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/",
@@ -147,7 +147,7 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
          "url":"https://connector.com/api/methodname",
          "ontology":{
             "harmonized":true,
-            "supportedPayloads":{
+            "supportedPayload":{
                "currentValues":{
                   "version":"2.0",
                   "versionHistory":[
