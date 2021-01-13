@@ -34,8 +34,20 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
          "1.2",
          "2.0"
       ],
-      "requestContext":"https://standards.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
-      "responseContext":"https://standards.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
+      "supportedPayloads":{
+         "currentValues":{
+            "requestContext":"",
+            "responseContext":""
+         },
+         "historyValues":{
+            "requestContext":"",
+            "responseContext":""
+         },
+         "predictionValues":{
+            "requestContext":"",
+            "responseContext":""
+         }
+      }
    },
    "condition":[
       {
@@ -47,13 +59,37 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    ],
    "priceplan":[
       {
-         "name":"Organization contact information - Finland",
-         "currency":"euro",
-         "unit":"monthly, quantity",
-         "unitGroup":"subscription, transaction",
-         "vatIncluded":"",
-         "vatPercentge":""
-      }
+         "name":"Premium subscription 1 year",
+         "currency":"EUR",
+         "unitGroup":"Duration",
+         "unit":"year",
+         "quantity":1,
+         "rate":1000
+      },
+      [
+         {
+            "name":"Premium Package",
+            "currency":"EUR",
+            "unitGroup":"Transaction",
+            "unit":"Transaction",
+            "quantity":100000,
+            "rule":{
+               "maxQuantity":100000
+            },
+            "rate":100
+         },
+         {
+            "name":"Extra Requests",
+            "currency":"EUR",
+            "unitGroup":"Transaction",
+            "unit":"Transaction",
+            "quantity":1,
+            "rule":{
+               "minQuantity":100001
+            },
+            "rate":0.5
+         }
+      ]
    ],
    "quality":[
       {
@@ -105,8 +141,10 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
                "1.2",
                "2.0"
             ],
-            "requestContext":"https://standards.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
-            "responseContext":"https://standards.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
+            "supportedPayloads":[
+               "currentValues",
+               "historyValues"
+            ]
          }
       },
       {
