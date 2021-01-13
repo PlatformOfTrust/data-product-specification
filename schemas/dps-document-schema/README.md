@@ -21,21 +21,44 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
       }
    ],
    "streamType":[
-      "current",
-      "history"
+      "currentValues",
+      "historyValues",
+      "predictionValues"
    ],
    "monitoring":{
       "url":"https://status.uptimerobot.com/"
    },
    "ontology":{
       "harmonized":true,
-      "version":"2.0",
-      "versionHistory":[
-         "1.2",
-         "2.0"
-      ],
-      "requestContext":"https://standards.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
-      "responseContext":"https://standards.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
+      "supportedPayloads":{
+         "currentValues":{
+            "requestContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
+            "responseContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/",
+            "version":"2.0",
+            "versionHistory":[
+               "1.2",
+               "2.0"
+            ]
+         },
+         "historyValues":{
+            "requestContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
+            "responseContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/",
+            "version":"2.0",
+            "versionHistory":[
+               "1.2",
+               "2.0"
+            ]
+         },
+         "predictionValues":{
+            "requestContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
+            "responseContext":"https://standards-ontotest.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/",
+            "version":"2.0",
+            "versionHistory":[
+               "1.2",
+               "2.0"
+            ]
+         }
+      }
    },
    "condition":[
       {
@@ -124,13 +147,21 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
          "url":"https://connector.com/api/methodname",
          "ontology":{
             "harmonized":true,
-            "version":"2.0",
-            "versionHistory":[
-               "1.2",
-               "2.0"
-            ],
-            "requestContext":"https://standards.oftrust.net/v2/Context/DataProductParameters/ProductCatalog/",
-            "responseContext":"https://standards.oftrust.net/v2/Context/DataProductOutput/ProductCatalog/"
+            "supportedPayloads":{
+               "currentValues":{
+                  "version":"2.0",
+                  "versionHistory":[
+                     "1.2",
+                     "2.0"
+                  ]
+               },
+               "historyValues":{
+                  "version":"2.0"
+               },
+               "predictionValues":{
+                  "version":"2.0"
+               }
+            }
          }
       },
       {
