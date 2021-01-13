@@ -202,9 +202,6 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
 | description | additionalInformation | string | Additional information | Additional information. |
 | description | descriptionGeneral | string | Description | Description. |
 | description | imageUrl | string | Product image | Link to product image. |
-| financial | priceCurrent | decimal | Estimated price | Estimated value of the current price. |
-| financial | pricePurchase | decimal | Purchase price | Purchase price. |
-| financial | priceSell | decimal | Sales price | Sales price. |
 | identifier | codeProduct | string | Product code | Unique product code given by manufacturer. |
 | identifier | ean | string | EAN code | EAN standard based identifier. |
 | identifier | gTIN | string | GTIN code | GTIN standard based identifier. |
