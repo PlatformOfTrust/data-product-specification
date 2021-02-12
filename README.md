@@ -1,3 +1,5 @@
+!INCLUDE "cookies.html"
+
 ---
 description: 'version: 0.1'
 ---
