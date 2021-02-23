@@ -105,16 +105,18 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
    "quality":[
       {
          "name":"Information updating",
-         "categorizationLocal":"Update frequancy",
-         "categorizationPoT":"dataProduct",
+         "categorizationLocal":"InformationUpdateFrequancy",
+         "categorizationPoT":"UpdateFrequancy",
          "descriptionGeneral":"Information is updated once per day."
       },
       {
          "name":"Uptime",
+		 "categorizationPoT":"Uptime",
          "value":"99%"
       },
       {
          "name":"Response time",
+		 "categorizationPoT":"ResponseTime",
          "value":"400 ms"
       }
    ],
