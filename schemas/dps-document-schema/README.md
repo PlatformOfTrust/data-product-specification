@@ -111,12 +111,12 @@ Below is the example of DataProduct. Entitites definitions can be found in respe
       },
       {
          "name":"Uptime",
-		 "categorizationPoT":"Uptime",
+         "categorizationPoT":"Uptime",
          "value":"99%"
       },
       {
          "name":"Response time",
-		 "categorizationPoT":"ResponseTime",
+         "categorizationPoT":"ResponseTime",
          "value":"400 ms"
       }
    ],
